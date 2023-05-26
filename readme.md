@@ -35,7 +35,7 @@
 
 - 자료구조
 
-  - [**_세그먼트 트리_**](#)
+  - [**_세그먼트 트리_**](https://github.com/SlowCloud/algorithm_roadmap/blob/main/beginner/SegmentTree.md)
   - 펜윅 트리
 
 - 알고리즘
