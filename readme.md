@@ -20,7 +20,7 @@
   - 브루트 포스
   - 그리디 알고리즘
   - 재귀/백트래킹
-  - **_다이나믹 프로그래밍_**
+  - **다이나믹 프로그래밍**
   - 최단 경로
     - 다익스트라
     - 플로이드-워셜
@@ -35,7 +35,7 @@
 
 - 자료구조
 
-  - [**_세그먼트 트리_**](https://github.com/SlowCloud/algorithm_roadmap/blob/main/beginner/SegmentTree.md)
+  - [**세그먼트 트리**](https://github.com/SlowCloud/algorithm_roadmap/blob/main/beginner/SegmentTree.md)
   - 펜윅 트리
 
 - 알고리즘
