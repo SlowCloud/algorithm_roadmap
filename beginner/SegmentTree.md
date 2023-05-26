@@ -26,7 +26,7 @@
 
 #### 구현
 
-누적합을 구하는 세그먼트 트리를 작성하였다.
+구간합을 구하는 세그먼트 트리를 작성하였다.
 
 C++
 
@@ -98,7 +98,51 @@ int main() {
 비트 반복문 세그먼트 트리
 
 ```
+vector<int> seg;
+int bias;
 
+void update(int i, int v) {
+    i |= bias;
+    seg[i] = v;
+    while(i >>= 1) {
+        seg[i] = seg[i << 1] + seg[i << 1 | 1];
+    }
+}
+
+int query(int l, int r) {
+    l |= bias; r |= bias;
+    int ans = 0;
+    while(l <= r) {
+        if(l & 1) ans += seg[l++];
+        if(~r & 1) ans += seg[r--];
+        l >>= 1; r >>= 1;
+    }
+    return ans;
+}
+
+int main() {
+    // cin, cout의 입출력을 scanf, printf만큼 빠르게 해 주는 코드이다.
+    ios::sync_with_stdio(0); cin.tie(0);
+
+    int N; cin >> N;
+    bias = 1 << (floor(log2(N)) + 1);
+    seg.resize(bias << 1 | 1);
+    for(int i = 1; i <= N; i++) {
+        int n; cin >> n;
+        update(i, n);
+    }
+
+    int Q; cin >> Q;
+    while(Q--) {
+        int op, a, b; cin >> op >> a >> b;
+        if(op == 1) {
+            update(a, b, 1, 1, N);
+        }
+        else {
+            cout << query(a, b, 1, 1, N) << endl;
+        }
+    }
+}
 ```
 
 #### 연습 문제
