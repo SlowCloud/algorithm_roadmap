@@ -54,7 +54,7 @@ void update(int i, int v, int n, int s, int e) {
     // s와 e의 중간값을 구한다.
     int m = (s + e) / 2;
 
-    // 왼쪽 벙위와 오른쪽 범위에 대해 재귀로 갱신한다.
+    // 왼쪽 범위와 오른쪽 범위에 대해 재귀로 갱신한다.
     update(i, v, n*2, s, m);
     update(i, v, n*2+1, m+1, e);
 
@@ -125,7 +125,7 @@ int main() {
     ios::sync_with_stdio(0); cin.tie(0);
 
     int N; cin >> N;
-    bias = 1 << (floor(log2(N)) + 1);
+    bias = 1 << ((int)floor(log2(N)) + 1);
     seg.resize(bias << 1 | 1);
     for(int i = 1; i <= N; i++) {
         int n; cin >> n;
