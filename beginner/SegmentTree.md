@@ -146,5 +146,5 @@ int main() {
 
 ## 연습 문제
 
-[#2042 구간 합 구하기 [G1]](https://www.acmicpc.net/problem/2042)<br>
-[#2357 최소값과 최대값 [G1]](https://www.acmicpc.net/problem/2357)<br>
+- [#2042 구간 합 구하기 [G1]](https://www.acmicpc.net/problem/2042)
+- [#2357 최소값과 최대값 [G1]](https://www.acmicpc.net/problem/2357)
