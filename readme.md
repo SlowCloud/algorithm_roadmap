@@ -54,7 +54,7 @@
     - 비트마스킹을 이용한 DP
     - 트리에서의 DP
     - 덱을 이용한 DP
-  - LIS
+    - LIS
 
 - 수학
   - 페르마의 소정리를 이용한 소수 판별
@@ -77,7 +77,7 @@
 - 알고리즘
 
   - [오일러 투어 트릭](https://github.com/SlowCloud/algorithm_roadmap/blob/main/intermediate/ETT.md)
-  - 절단점/절단선
+  - [단절점/단절선](https://github.com/SlowCloud/algorithm_roadmap/blob/main/intermediate/Articulation.md)
   - 강한 연결 요소
   - 네트워크 플로우
     - 최대 유량/최소 컷
