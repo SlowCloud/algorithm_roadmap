@@ -14,6 +14,7 @@
   - 정렬
   - 브루트 포스
   - 이분 탐색
+    - 매개 변수 탐색
   - 분할 정복
   - DFS/BFS
   - 그리디 알고리즘
@@ -73,10 +74,10 @@
   - [오일러 투어 트릭](https://github.com/SlowCloud/algorithm_roadmap/blob/main/intermediate/ETT.md)
   - [단절점/단절선](https://github.com/SlowCloud/algorithm_roadmap/blob/main/intermediate/Articulation.md)
   - 강한 연결 요소
-  - 네트워크 플로우
+  - [네트워크 플로우](https://github.com/SlowCloud/algorithm_roadmap/blob/main/intermediate/NetworkFlow.md)
+    - 이분 매칭
     - 최대 유량/최소 컷
     - 최소 거리 최대 유량
-  - 이분 매칭
   - 최소 공통 조상
     - 희소 배열
   - 기하학
@@ -128,6 +129,7 @@
     - 슬로프 트릭
     - 에일리언 트릭
     - ...
+  - 삼분 탐색
   - ...
 
 - 수학
