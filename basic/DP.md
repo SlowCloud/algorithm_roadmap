@@ -66,36 +66,27 @@ DP 테이블을 구성할 때에는 어떤 상태에서 어떤 값을 기록할 
 
 쉬운 문제부터 어려운 문제까지.
 
-분류중(미완성)
+### 기초
 
-- 간단한 점화식 또는 상태
+- [피보나치 수 4[S5]](https://www.acmicpc.net/problem/10826)
 
-    - 쉬운 문제
+- [파스칼의 삼각형[S5]](https://www.acmicpc.net/problem/16395)
 
-        - [피보나치 수 4[S5]](https://www.acmicpc.net/problem/10826)
+- [설탕 배달[S4]](https://www.acmicpc.net/problem/2839)
 
-        - [파스칼의 삼각형[S5]](https://www.acmicpc.net/problem/16395)
+- [1로 만들기[S3]](https://www.acmicpc.net/problem/1463)
 
-        - [설탕 배달[S4]](https://www.acmicpc.net/problem/2839)
+- [1, 2, 3 더하기[S3]](https://www.acmicpc.net/problem/9095)
 
-        - [1로 만들기[S3]](https://www.acmicpc.net/problem/1463)
+- [RGB 거리[S1]](https://www.acmicpc.net/problem/1149)
 
-        - [1, 2, 3 더하기[S3]](https://www.acmicpc.net/problem/9095)
+- [오르막 수[S1]](https://www.acmicpc.net/problem/11057)
 
-        - [RGB 거리[S1]](https://www.acmicpc.net/problem/1149)
+- [게임을 클리어하자[S1~G5]](https://www.acmicpc.net/problem/28017)
 
-        - [오르막 수[S1]](https://www.acmicpc.net/problem/11057)
+- [암호코드[G5]](https://www.acmicpc.net/problem/2011)
 
-        - [게임을 클리어하자[S1~G5]](https://www.acmicpc.net/problem/28017)
-
-    - [암호코드[G5]](https://www.acmicpc.net/problem/2011)
-
-- 계산 결과 기억하기
-
-    - [동전 1[G5]](https://www.acmicpc.net/problem/2293)
-
-    - [다이아몬드 광산[P5]](https://www.acmicpc.net/problem/1028)
-
+- [동전 1[G5]](https://www.acmicpc.net/problem/2293)
 
 - 배낭 문제
 
@@ -103,52 +94,86 @@ DP 테이블을 구성할 때에는 어떤 상태에서 어떤 값을 기록할 
 
     - [카우버거 알바생[G4]](https://www.acmicpc.net/problem/17208)
 
-- 다른 알고리즘과의 접목
+- 누적합
 
-    - 위상 정렬
+    - ...
 
-        - [ACM Craft[G3]](https://www.acmicpc.net/problem/1005)
+### 초급
 
-    - 누적합
+- 위상 정렬
 
-        - [파일 합치기[G3]](https://www.acmicpc.net/problem/11066)
+    - [ACM Craft[G3]](https://www.acmicpc.net/problem/1005)
 
-        - [가로등 끄기[P3]](https://www.acmicpc.net/problem/2315)
-    
-    - 비트마스킹을 이용한 DP
+- 누적합
 
-        - [그림 교환[G1]](https://www.acmicpc.net/problem/1029)
+    - [파일 합치기[G3]](https://www.acmicpc.net/problem/11066)
 
-        - [외판원 순회[G1]](https://www.acmicpc.net/problem/2098)
 
-        - [발전소[P5]](https://www.acmicpc.net/problem/1102)
+- 비트마스킹을 이용한 DP
 
-    - 덱을 이용한 DP
+    - [그림 교환[G1]](https://www.acmicpc.net/problem/1029)
 
-    - 그래프와 트리
+    - [외판원 순회[G1]](https://www.acmicpc.net/problem/2098)
 
-        - DFS
+    - [발전소[P5]](https://www.acmicpc.net/problem/1102)
 
-        - 트리에서의 DP
+- 그래프와 트리
 
-        - 다익스트라
-    
-    - 복합
+    - [여행[G4]](https://www.acmicpc.net/problem/2157)
 
-        - [연세워터파크[P5]](https://www.acmicpc.net/problem/15678)
+    - 트리에서의 DP
+
+        - [트리와 쿼리[G5]](https://www.acmicpc.net/problem/15681)
+
+        - [사회망 서비스[G3]](https://www.acmicpc.net/problem/2533)
+
+    - 다익스트라
+
+        - ...
+
+- 복잡한, 또는 추상적인 상태
+
+    - [타일 채우기[G5]](https://www.acmicpc.net/problem/2133)
 
 - 수학
 
     - [Ezreal 여눈부터 가네 ㅈㅈ[G5]](https://www.acmicpc.net/problem/20500)
 
-    - [k번째 이진십진수[P3]](https://www.acmicpc.net/problem/28143)
+**코딩테스트를 준비하시는 분들은 여기까지만 보시면 됩니다.**
+<hr>
 
-- 복잡한, 또는 정의하기 어려운 상태
+### 중급
 
-    - [타일 채우기[G5]](https://www.acmicpc.net/problem/2133)
+- [다이아몬드 광산[P5]](https://www.acmicpc.net/problem/1028)
+
+- [연세워터파크[P5]](https://www.acmicpc.net/problem/15678)
+
+- 복잡한, 또는 추상적인 상태
 
     - [로봇 조종하기[G2]](https://www.acmicpc.net/problem/2169)
 
     - [보안 업체[P3]](https://www.acmicpc.net/problem/4243)
+    
+    - [가로등 끄기[P3]](https://www.acmicpc.net/problem/2315)
 
     - [사수아탕[P1]](https://www.acmicpc.net/problem/2419)
+
+- 수학
+
+    - [k번째 이진십진수[P3]](https://www.acmicpc.net/problem/28143)
+
+### 고급
+
+- 벌러캠프 매시
+
+    - [IQ 테스트[P4]](https://www.acmicpc.net/problem/9334)
+
+    - [피보나치 수열처럼 보이지만...[D5]](https://www.acmicpc.net/problem/13716)
+
+- DP 최적화
+
+    - 볼록 껍질을 이용한 최적화
+
+    - 분할 정복을 이용한 최적화
+
+    - 큐를 이용한 최적화

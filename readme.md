@@ -29,6 +29,8 @@
     - 크루스칼
     - 프림
   - 투 포인터
+  - (위상 정렬)
+  - (비트 연산)
 
 - 수학
   - 모듈로 연산
@@ -68,7 +70,6 @@
 - 자료구조
   - [느리게 갱신되는 세그먼트 트리](https://github.com/SlowCloud/algorithm_roadmap/blob/main/intermediate/LazyProp.md)
   - 머지 소트 트리
-  - 다차원 세그먼트 트리
 
 - 알고리즘
   - [오일러 투어 트릭](https://github.com/SlowCloud/algorithm_roadmap/blob/main/intermediate/ETT.md)
@@ -104,6 +105,7 @@
 공사중
 
 - 자료구조
+  - 다차원 세그먼트 트리
   - 퍼시스턴트 세그먼트 트리
   - 스플레이 트리, 트립
   - 링크/컷 트리
@@ -126,6 +128,7 @@
   - 제곱근 분할법
   - 무작위화
   - DP 최적화
+    - monge array
     - 슬로프 트릭
     - 에일리언 트릭
     - ...
