@@ -5,7 +5,7 @@
 - 자료구조
   - 트리와 그래프
   - 해시맵, 집합
-  - [스택]((https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/Stack.md))
+  - [스택](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/Stack.md)
   - 큐
   - 데큐
   - 우선순위 큐
