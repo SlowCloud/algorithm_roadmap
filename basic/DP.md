@@ -9,6 +9,7 @@
 - 분할 정복
 - 배낭 문제
 - 투 포인터
+- 최단 거리
 
 # 다이나믹 프로그래밍
 
@@ -69,76 +70,49 @@ DP 테이블을 구성할 때에는 어떤 상태에서 어떤 값을 기록할 
 ### 기초
 
 - [피보나치 수 4[S5]](https://www.acmicpc.net/problem/10826)
-
 - [파스칼의 삼각형[S5]](https://www.acmicpc.net/problem/16395)
-
 - [설탕 배달[S4]](https://www.acmicpc.net/problem/2839)
-
 - [1로 만들기[S3]](https://www.acmicpc.net/problem/1463)
-
 - [1, 2, 3 더하기[S3]](https://www.acmicpc.net/problem/9095)
-
 - [RGB 거리[S1]](https://www.acmicpc.net/problem/1149)
-
 - [오르막 수[S1]](https://www.acmicpc.net/problem/11057)
-
 - [게임을 클리어하자[S1~G5]](https://www.acmicpc.net/problem/28017)
-
 - [암호코드[G5]](https://www.acmicpc.net/problem/2011)
-
 - [동전 1[G5]](https://www.acmicpc.net/problem/2293)
+- [개근상[G4]](https://www.acmicpc.net/problem/1563)
 
 - 배낭 문제
-
     - [평범한 배낭[G5]](https://www.acmicpc.net/problem/12865)
-
     - [카우버거 알바생[G4]](https://www.acmicpc.net/problem/17208)
 
 - 누적합
-
     - ...
 
 ### 초급
 
 - 위상 정렬
-
     - [ACM Craft[G3]](https://www.acmicpc.net/problem/1005)
 
 - 누적합
-
     - [파일 합치기[G3]](https://www.acmicpc.net/problem/11066)
 
-
 - 비트마스킹을 이용한 DP
-
     - [그림 교환[G1]](https://www.acmicpc.net/problem/1029)
-
     - [외판원 순회[G1]](https://www.acmicpc.net/problem/2098)
-
     - [발전소[P5]](https://www.acmicpc.net/problem/1102)
 
 - 그래프와 트리
-
     - [여행[G4]](https://www.acmicpc.net/problem/2157)
 
     - 트리에서의 DP
-
         - [트리와 쿼리[G5]](https://www.acmicpc.net/problem/15681)
-
         - [사회망 서비스[G3]](https://www.acmicpc.net/problem/2533)
 
-    - 다익스트라
-
-        - ...
-
 - 복잡한, 또는 추상적인 상태
-
     - [타일 채우기[G5]](https://www.acmicpc.net/problem/2133)
-
     - [로봇 조종하기[G2]](https://www.acmicpc.net/problem/2169)
 
 - 수학
-
     - [Ezreal 여눈부터 가네 ㅈㅈ[G5]](https://www.acmicpc.net/problem/20500)
 
 **코딩테스트를 준비하시는 분들은 여기까지만 보시면 됩니다.**
@@ -147,27 +121,23 @@ DP 테이블을 구성할 때에는 어떤 상태에서 어떤 값을 기록할 
 ### 중급
 
 - [다이아몬드 광산[P5]](https://www.acmicpc.net/problem/1028)
-
 - [연세워터파크[P5]](https://www.acmicpc.net/problem/15678)
 
 - 복잡한, 또는 추상적인 상태
-
     - [보안 업체[P3]](https://www.acmicpc.net/problem/4243)
-    
     - [가로등 끄기[P3]](https://www.acmicpc.net/problem/2315)
-
     - [사수아탕[P1]](https://www.acmicpc.net/problem/2419)
 
-- 수학
+- 다익스트라
+    - [주유소[P5]](https://www.acmicpc.net/problem/13308)
 
+- 수학
     - [k번째 이진십진수[P3]](https://www.acmicpc.net/problem/28143)
 
 ### 고급
 
 - 벌러캠프 매시
-
     - [IQ 테스트[P4]](https://www.acmicpc.net/problem/9334)
-
     - [피보나치 수열처럼 보이지만...[D5]](https://www.acmicpc.net/problem/13716)
 
 - DP 최적화

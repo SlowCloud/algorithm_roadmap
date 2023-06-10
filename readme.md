@@ -16,7 +16,7 @@
   - 이분 탐색
     - 매개 변수 탐색
   - 분할 정복
-  - DFS/BFS
+  - [DFS/BFS](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/FirstSearch.md)
   - 그리디 알고리즘
   - 재귀/백트래킹
   - [**다이나믹 프로그래밍**](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/DP.md)

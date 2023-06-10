@@ -17,8 +17,6 @@
 
 ## 연습 문제
 
-코딩 테스트를 준비하시는 분들도 다 풀어보셔도 됩니다.
-
 - 기초
     - [스택[S4]](https://www.acmicpc.net/problem/10828)
     - [괄호[S4]](https://www.acmicpc.net/problem/9012)
@@ -34,6 +32,9 @@
     - 스택의 원리를 사용하는 문자열 문제
         - [문자열 폭발[G4]](https://www.acmicpc.net/problem/9935)
         - [PPAP[G4]](https://www.acmicpc.net/problem/16120)
+
+**코딩테스트를 준비하시는 분들은 여기까지만 보시면 됩니다.**
+<hr>
 
 - 중급
 
