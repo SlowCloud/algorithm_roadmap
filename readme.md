@@ -29,7 +29,7 @@
     - 크루스칼
     - 프림
   - 투 포인터
-  - [**구현**]((https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/implementation.md))
+  - [**구현**](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/implementation.md)
 
 - 수학
   - 모듈로 연산
