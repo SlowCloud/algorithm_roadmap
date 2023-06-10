@@ -69,24 +69,34 @@ DP 테이블을 구성할 때에는 어떤 상태에서 어떤 값을 기록할 
 
 ### 기초
 
-- [피보나치 수 4[S5]](https://www.acmicpc.net/problem/10826)
-- [파스칼의 삼각형[S5]](https://www.acmicpc.net/problem/16395)
-- [설탕 배달[S4]](https://www.acmicpc.net/problem/2839)
-- [1로 만들기[S3]](https://www.acmicpc.net/problem/1463)
-- [1, 2, 3 더하기[S3]](https://www.acmicpc.net/problem/9095)
-- [RGB 거리[S1]](https://www.acmicpc.net/problem/1149)
-- [오르막 수[S1]](https://www.acmicpc.net/problem/11057)
-- [게임을 클리어하자[S1~G5]](https://www.acmicpc.net/problem/28017)
-- [암호코드[G5]](https://www.acmicpc.net/problem/2011)
-- [동전 1[G5]](https://www.acmicpc.net/problem/2293)
-- [알약[G5]](https://www.acmicpc.net/problem/4811)
-- [개근상[G4]](https://www.acmicpc.net/problem/1563)
+- 기초 문제
+    - [피보나치 수 4[S5]](https://www.acmicpc.net/problem/10826)
+    - [파스칼의 삼각형[S5]](https://www.acmicpc.net/problem/16395)
+    - [설탕 배달[S4]](https://www.acmicpc.net/problem/2839)
+    - [1로 만들기[S3]](https://www.acmicpc.net/problem/1463)
+    - [1, 2, 3 더하기[S3]](https://www.acmicpc.net/problem/9095)
+    - [RGB 거리[S1]](https://www.acmicpc.net/problem/1149)
+    - [오르막 수[S1]](https://www.acmicpc.net/problem/11057)
+    - [게임을 클리어하자[S1~G5]](https://www.acmicpc.net/problem/28017)
+    - [암호코드[G5]](https://www.acmicpc.net/problem/2011)
+    - [동전 1[G5]](https://www.acmicpc.net/problem/2293)
+    - [알약[G5]](https://www.acmicpc.net/problem/4811)
+    - [개근상[G4]](https://www.acmicpc.net/problem/1563)
+    - [구간 나누기[G3]](https://www.acmicpc.net/problem/2228)
 
 - 배낭 문제
     - [평범한 배낭[G5]](https://www.acmicpc.net/problem/12865)
     - [카우버거 알바생[G4]](https://www.acmicpc.net/problem/17208)
 
 - 누적합
+    - [구간 합 구하기 4[S3]](https://www.acmicpc.net/problem/11659)
+    - [부분합[G4]](https://www.acmicpc.net/problem/1806)
+    - [나머지 합[G3]](https://www.acmicpc.net/problem/10986)
+    - ...
+
+- 누적합을 활용한 DP
+    - ...
+    - [소형 기관차[G3]](https://www.acmicpc.net/problem/2616)
     - ...
 
 - 복잡한, 또는 추상적인 상태
@@ -130,7 +140,8 @@ DP 테이블을 구성할 때에는 어떤 상태에서 어떤 값을 기록할 
 
 ### 중급
 
-- [연세워터파크[P5]](https://www.acmicpc.net/problem/15678)
+- 중급 문제
+    - [연세워터파크[P5]](https://www.acmicpc.net/problem/15678)
 
 - 복잡한, 또는 추상적인 상태
     - [보안 업체[P3]](https://www.acmicpc.net/problem/4243)
