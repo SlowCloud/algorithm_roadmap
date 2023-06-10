@@ -79,6 +79,7 @@ DP 테이블을 구성할 때에는 어떤 상태에서 어떤 값을 기록할 
 - [게임을 클리어하자[S1~G5]](https://www.acmicpc.net/problem/28017)
 - [암호코드[G5]](https://www.acmicpc.net/problem/2011)
 - [동전 1[G5]](https://www.acmicpc.net/problem/2293)
+- [알약[G5]](https://www.acmicpc.net/problem/4811)
 - [개근상[G4]](https://www.acmicpc.net/problem/1563)
 
 - 배낭 문제
@@ -88,6 +89,25 @@ DP 테이블을 구성할 때에는 어떤 상태에서 어떤 값을 기록할 
 - 누적합
     - ...
 
+- 복잡한, 또는 추상적인 상태
+    - [타일 채우기[G5]](https://www.acmicpc.net/problem/2133)
+    - [로봇 조종하기[G2]](https://www.acmicpc.net/problem/2169)
+
+- 비트마스킹을 이용한 DP
+    - [그림 교환[G1]](https://www.acmicpc.net/problem/1029)
+    - [외판원 순회[G1]](https://www.acmicpc.net/problem/2098)
+    - [발전소[P5]](https://www.acmicpc.net/problem/1102)
+
+- 점화식보다는 "중복 계산 제거"에 중점을 둔 문제
+    - [펠린드롬?[G4]](https://www.acmicpc.net/problem/10942)
+    - [다이아몬드 광산[P5]](https://www.acmicpc.net/problem/1028)
+
+- 그래프와 트리
+    - [여행[G4]](https://www.acmicpc.net/problem/2157)
+
+**코딩테스트를 준비하시는 분들은 여기까지만 보시면 됩니다.**
+<hr>
+
 ### 초급
 
 - 위상 정렬
@@ -96,31 +116,20 @@ DP 테이블을 구성할 때에는 어떤 상태에서 어떤 값을 기록할 
 - 누적합
     - [파일 합치기[G3]](https://www.acmicpc.net/problem/11066)
 
-- 비트마스킹을 이용한 DP
-    - [그림 교환[G1]](https://www.acmicpc.net/problem/1029)
-    - [외판원 순회[G1]](https://www.acmicpc.net/problem/2098)
-    - [발전소[P5]](https://www.acmicpc.net/problem/1102)
-
 - 그래프와 트리
-    - [여행[G4]](https://www.acmicpc.net/problem/2157)
-
     - 트리에서의 DP
         - [트리와 쿼리[G5]](https://www.acmicpc.net/problem/15681)
         - [사회망 서비스[G3]](https://www.acmicpc.net/problem/2533)
 
-- 복잡한, 또는 추상적인 상태
-    - [타일 채우기[G5]](https://www.acmicpc.net/problem/2133)
-    - [로봇 조종하기[G2]](https://www.acmicpc.net/problem/2169)
-
 - 수학
     - [Ezreal 여눈부터 가네 ㅈㅈ[G5]](https://www.acmicpc.net/problem/20500)
 
-**코딩테스트를 준비하시는 분들은 여기까지만 보시면 됩니다.**
-<hr>
+- 카탈란 수
+    - [[문제집]](https://www.acmicpc.net/workbook/view/8112)
+
 
 ### 중급
 
-- [다이아몬드 광산[P5]](https://www.acmicpc.net/problem/1028)
 - [연세워터파크[P5]](https://www.acmicpc.net/problem/15678)
 
 - 복잡한, 또는 추상적인 상태
