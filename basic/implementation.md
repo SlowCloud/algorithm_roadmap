@@ -27,11 +27,6 @@
         - [3의 배수[S5]](https://www.acmicpc.net/problem/1769)
         - [누울 자리를 찾아라[S5]](https://www.acmicpc.net/problem/1652)
         - [셀프 넘버[S5]](https://www.acmicpc.net/problem/4673)
-    - 그리디
-        - [사과 담기 게임[S5]](https://www.acmicpc.net/problem/2828)
-    - 브루트포스
-        - [마인크래프트[S2]](https://www.acmicpc.net/problem/18111)
-        - [사탕 게임[S2]](https://www.acmicpc.net/problem/3085)
 
 ### 초급
 
@@ -56,6 +51,11 @@
         - [벽 부수고 이동하기 2[G3]](https://www.acmicpc.net/problem/14442)
         - [미네랄[G2]](https://www.acmicpc.net/problem/2933)
         - [수영장 만들기[G1]](https://www.acmicpc.net/problem/1113)
+    - 그리디
+        - [사과 담기 게임[S5]](https://www.acmicpc.net/problem/2828)
+    - 브루트포스
+        - [마인크래프트[S2]](https://www.acmicpc.net/problem/18111)
+        - [사탕 게임[S2]](https://www.acmicpc.net/problem/3085)
     
     - 문제 시리즈
         - [마법사 상어 시리즈]
