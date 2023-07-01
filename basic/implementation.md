@@ -22,16 +22,15 @@
 - 기초 문제
     - 기본 입출력
         - [[문제집][B5~B1]](https://www.acmicpc.net/workbook/view/7306)
-    - 단순 구현
-        - [방 번호[S5]](https://www.acmicpc.net/problem/1475)
-        - [3의 배수[S5]](https://www.acmicpc.net/problem/1769)
-        - [누울 자리를 찾아라[S5]](https://www.acmicpc.net/problem/1652)
-        - [셀프 넘버[S5]](https://www.acmicpc.net/problem/4673)
 
 ### 초급
 
 - 초급 문제
     - 단순 구현
+        - [방 번호[S5]](https://www.acmicpc.net/problem/1475)
+        - [3의 배수[S5]](https://www.acmicpc.net/problem/1769)
+        - [누울 자리를 찾아라[S5]](https://www.acmicpc.net/problem/1652)
+        - [셀프 넘버[S5]](https://www.acmicpc.net/problem/4673)
         - [펠린드롬 만들기[S3]](https://www.acmicpc.net/problem/1213)
         - [프린터 큐[S3]](https://www.acmicpc.net/problem/1966)
         - [AC[G5]](https://www.acmicpc.net/problem/5430)
