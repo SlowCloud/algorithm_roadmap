@@ -38,7 +38,7 @@
       - 에라토스테네스의 체
     - 최대공약수/최소공배수
       - 유클리드 호제법
-  - 분할정복을 이용한 빠른 거듭제곱
+  - [분할정복을 이용한 빠른 거듭제곱](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/FastPower.md)
   - 조합론
     - DFS를 이용한 조합 구하기
     - 비트마스킹을 이용한 조합 구하기
