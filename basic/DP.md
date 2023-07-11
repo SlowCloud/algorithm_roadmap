@@ -114,6 +114,7 @@ DP 테이블을 구성할 때에는 어떤 상태에서 어떤 값을 기록할 
 
 - 그래프와 트리
     - [여행[G4]](https://www.acmicpc.net/problem/2157)
+    - [KCM Travel[P5]](https://www.acmicpc.net/problem/10217)
 
 **코딩테스트를 준비하시는 분들은 여기까지만 보시면 됩니다.**
 <hr>
