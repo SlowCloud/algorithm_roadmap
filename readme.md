@@ -20,6 +20,9 @@
   - 그리디 알고리즘
   - 재귀/백트래킹
   - [**다이나믹 프로그래밍**](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/DP.md)
+    - 비트마스킹을 이용한 DP
+    - 트리에서의 DP
+    - 가장 긴 증가하는 부분수열(LIS)
   - 최단 경로
     - [다익스트라](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/dijkstra.md)
     - 플로이드-워셜
@@ -38,6 +41,8 @@
       - 에라토스테네스의 체
     - 최대공약수/최소공배수
       - 유클리드 호제법
+  - 선형대수
+    - 행렬 연산
   - [분할정복을 이용한 빠른 거듭제곱](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/FastPower.md)
   - 조합론
     - DFS를 이용한 조합 구하기
@@ -56,17 +61,12 @@
   - 위상 정렬
   - 비트마스킹
   - 다이나믹 프로그래밍
-    - 비트마스킹을 이용한 DP
-    - 트리에서의 DP
     - 덱을 이용한 DP
-    - 가장 긴 증가하는 부분수열(LIS)
-    - Longest Common Subsequence
+    - 최장 공통 문자열(LCS)
 
 - 수학
   - 정수론
     - 페르마의 소정리를 이용한 소수 판별
-  - 선형대수
-    - 행렬 연산
   - 비둘기집 원리
 
 - 기타
