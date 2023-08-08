@@ -32,6 +32,7 @@
     - 크루스칼
     - 프림
   - 투 포인터
+  - 비트마스킹
   - [**구현**](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/implementation.md)
 
 - 수학
@@ -47,6 +48,7 @@
   - 조합론
     - DFS를 이용한 조합 구하기
     - 비트마스킹을 이용한 조합 구하기
+    - STL을 이용한 조합 구하기
 
 - 기타
   - STL
@@ -55,19 +57,17 @@
 
 - 자료구조
   - [**세그먼트 트리**](https://github.com/SlowCloud/algorithm_roadmap/blob/main/beginner/SegmentTree.md)
-  - 펜윅 트리, 인덱스 트리
+  - [펜윅 트리, 인덱스 트리](https://github.com/SlowCloud/algorithm_roadmap/blob/main/beginner/Fenwick.md)
 
 - 알고리즘
   - 위상 정렬
-  - 비트마스킹
   - 다이나믹 프로그래밍
     - 덱을 이용한 DP
     - 최장 공통 문자열(LCS)
 
-- 수학
-  - 정수론
-    - 페르마의 소정리를 이용한 소수 판별
-  - 비둘기집 원리
+- 기하학
+  - 외적(CCW)
+  - 선분 교차
 
 - 기타
   - bits/stdc++.h
@@ -89,11 +89,6 @@
     - 최소 거리 최대 유량
   - 최소 공통 조상(LCA)
     - 희소 배열
-  - 기하학
-    - 선분 교차
-    - 외적(CCW)
-      - 볼록 껍질(Convex Hull)
-      - 회전하는 캘리퍼스
   - 문자열 알고리즘
     - KMP
     - 트라이
@@ -101,11 +96,17 @@
     - mo's
   - 삼분 탐색
 
+- 기하학
+  - 볼록 껍질(Convex Hull)
+  - 회전하는 캘리퍼스
+
 - 수학
   - 정수론
+    - 페르마의 소정리를 이용한 소수 판별
     - 밀러-라빈 소수 판별법
     - 확장 유클리드 호제법
   - 포함-배제의 원리
+  - 비둘기집 원리
   - ...
 
 - 기타
@@ -114,7 +115,7 @@
 
 ## 고급
 
-공사중 - 자주 변경될 예정
+자주 변경될 예정
 
 - 자료구조
   - 다차원 세그먼트 트리
