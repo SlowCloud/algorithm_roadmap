@@ -1,7 +1,5 @@
 ## 기초
 
-코딩 테스트를 준비하시는 분은 여기까지만 공부하셔도 좋습니다.
-
 - 자료구조
   - 트리와 그래프
   - 해시맵, 집합
@@ -55,6 +53,8 @@
 
 ## 초급
 
+코딩 테스트를 준비하시는 분은 여기까지 공부하시면 좋습니다.
+
 - 자료구조
   - [**세그먼트 트리**](https://github.com/SlowCloud/algorithm_roadmap/blob/main/beginner/SegmentTree.md)
   - [펜윅 트리, 인덱스 트리](https://github.com/SlowCloud/algorithm_roadmap/blob/main/beginner/Fenwick.md)
@@ -64,10 +64,6 @@
   - 다이나믹 프로그래밍
     - 덱을 이용한 DP
     - 최장 공통 문자열(LCS)
-
-- 기하학
-  - 외적(CCW)
-  - 선분 교차
 
 - 기타
   - bits/stdc++.h
@@ -97,6 +93,8 @@
   - 삼분 탐색
 
 - 기하학
+  - 외적(CCW)
+  - 선분 교차
   - 볼록 껍질(Convex Hull)
   - 회전하는 캘리퍼스
 

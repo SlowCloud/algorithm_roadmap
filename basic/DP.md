@@ -114,10 +114,7 @@ DP 테이블을 구성할 때에는 어떤 상태에서 어떤 값을 기록할 
 
 - 그래프와 트리
     - [여행[G4]](https://www.acmicpc.net/problem/2157)
-    - [KCM Travel[P5]](https://www.acmicpc.net/problem/10217)
 
-**코딩테스트를 준비하시는 분들은 여기까지만 보시면 됩니다.**
-<hr>
 
 ### 초급
 
@@ -131,6 +128,8 @@ DP 테이블을 구성할 때에는 어떤 상태에서 어떤 값을 기록할 
     - 트리에서의 DP
         - [트리와 쿼리[G5]](https://www.acmicpc.net/problem/15681)
         - [사회망 서비스[G3]](https://www.acmicpc.net/problem/2533)
+    - [게임[G2]](https://www.acmicpc.net/problem/1103)
+    - [KCM Travel[P5]](https://www.acmicpc.net/problem/10217)
 
 - 수학
     - [Ezreal 여눈부터 가네 ㅈㅈ[G5]](https://www.acmicpc.net/problem/20500)
@@ -138,6 +137,8 @@ DP 테이블을 구성할 때에는 어떤 상태에서 어떤 값을 기록할 
 - 카탈란 수
     - [[문제집]](https://www.acmicpc.net/workbook/view/8112)
 
+**코딩테스트를 준비하시는 분들은 여기까지만 보시면 됩니다.**
+<hr>
 
 ### 중급
 
