@@ -55,6 +55,8 @@ int kth(int i) {
 ```
 위 함수를 이용하면 타뷸레이션보다 Lazy하게 문제를 해결할 수 있게 된다. 피보나치 수열에서는 $O(k)$로 동일한 시간이 걸리지만, 복잡한 DP 문제로 변하면 해당 방식이 풜씬 유리해진다.
 
+시작점이 명확하지만 끝점이 명확하지 않은 DP를 해야 한다면, 타뷸레이션이 훨씬 유리하다.
+
 ### 최적 부분 구조
 
 DP 테이블을 구성할 때에는 어떤 상태에서 어떤 값을 기록할 것인지를 생각하는 것이 좋다.
@@ -130,6 +132,10 @@ DP 테이블을 구성할 때에는 어떤 상태에서 어떤 값을 기록할 
         - [사회망 서비스[G3]](https://www.acmicpc.net/problem/2533)
     - [게임[G2]](https://www.acmicpc.net/problem/1103)
     - [KCM Travel[P5]](https://www.acmicpc.net/problem/10217)
+
+- 배낭 문제
+    - [메이플스토리[G2]](https://www.acmicpc.net/problem/20925)
+    - [시로코와 은행털기[G2]](https://www.acmicpc.net/problem/26607)
 
 - 수학
     - [Ezreal 여눈부터 가네 ㅈㅈ[G5]](https://www.acmicpc.net/problem/20500)
