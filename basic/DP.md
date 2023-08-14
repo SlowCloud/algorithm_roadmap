@@ -105,11 +105,6 @@ DP 테이블을 구성할 때에는 어떤 상태에서 어떤 값을 기록할 
     - [타일 채우기[G5]](https://www.acmicpc.net/problem/2133)
     - [로봇 조종하기[G2]](https://www.acmicpc.net/problem/2169)
 
-- 비트마스킹을 이용한 DP
-    - [그림 교환[G1]](https://www.acmicpc.net/problem/1029)
-    - [외판원 순회[G1]](https://www.acmicpc.net/problem/2098)
-    - [발전소[P5]](https://www.acmicpc.net/problem/1102)
-
 - 점화식보다는 "중복 계산 제거"에 중점을 둔 문제
     - [펠린드롬?[G4]](https://www.acmicpc.net/problem/10942)
     - [다이아몬드 광산[P5]](https://www.acmicpc.net/problem/1028)
@@ -136,6 +131,11 @@ DP 테이블을 구성할 때에는 어떤 상태에서 어떤 값을 기록할 
 - 배낭 문제
     - [메이플스토리[G2]](https://www.acmicpc.net/problem/20925)
     - [시로코와 은행털기[G2]](https://www.acmicpc.net/problem/26607)
+
+- 비트마스킹을 이용한 DP
+    - [그림 교환[G1]](https://www.acmicpc.net/problem/1029)
+    - [외판원 순회[G1]](https://www.acmicpc.net/problem/2098)
+    - [발전소[P5]](https://www.acmicpc.net/problem/1102)
 
 - 수학
     - [Ezreal 여눈부터 가네 ㅈㅈ[G5]](https://www.acmicpc.net/problem/20500)
