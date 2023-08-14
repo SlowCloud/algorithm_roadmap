@@ -11,7 +11,7 @@
 - 알고리즘
   - 정렬
   - 브루트 포스
-  - 이분 탐색
+  - [이분 탐색](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/binarySearch.md)
     - 매개 변수 탐색
   - 분할 정복
   - [DFS/BFS](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/FirstSearch.md)
