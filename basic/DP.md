@@ -143,7 +143,7 @@ DP 테이블을 구성할 때에는 어떤 상태에서 어떤 값을 기록할 
 - 카탈란 수
     - [[문제집]](https://www.acmicpc.net/workbook/view/8112)
 
-**코딩테스트를 준비하시는 분들은 여기까지만 보시면 됩니다.**
+**간단한 코딩테스트를 준비하시는 분들은 여기까지만 보시면 됩니다.**
 <hr>
 
 ### 중급
@@ -171,7 +171,18 @@ DP 테이블을 구성할 때에는 어떤 상태에서 어떤 값을 기록할 
 - DP 최적화
 
     - 볼록 껍질을 이용한 최적화
+        - [나무 자르기[P2]](https://www.acmicpc.net/problem/13263)
+        - [특공대[D5]](https://www.acmicpc.net/problem/4008)
 
     - 분할 정복을 이용한 최적화
+        - [김치[P1]](https://www.acmicpc.net/problem/11001)
+        - [탈옥[P1]](https://www.acmicpc.net/problem/13261)
+        - [수열의 OR점수[P1]](https://www.acmicpc.net/problem/13262)
 
     - 큐를 이용한 최적화
+
+    - 크누스 최적화
+        - [파일 합치기[P2]](https://www.acmicpc.net/problem/13974)
+    
+    - 함수 개형을 이용한 최적화
+        - [BOJ 수열[D3]](https://www.acmicpc.net/problem/13323)

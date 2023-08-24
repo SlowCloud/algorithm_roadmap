@@ -148,10 +148,14 @@ int main() {
 
 ## 연습 문제
 
-- [구간 합 구하기 [G1]](https://www.acmicpc.net/problem/2042)
-- [최소값과 최대값 [G1]](https://www.acmicpc.net/problem/2357)
+- 연습 문제
+    - [구간 합 구하기 [G1]](https://www.acmicpc.net/problem/2042)
+    - [최소값과 최대값 [G1]](https://www.acmicpc.net/problem/2357)
 
-## 어려운 문제
+- 중급 문제
+    - 스위핑
+        - [여우가 정보섬에 올라온 이유[P4]](https://www.acmicpc.net/problem/17131)
 
-- 복잡한 구성
-    - [연속합과 쿼리[P1]](https://www.acmicpc.net/problem/16993)
+- 어려운 문제
+    - 복잡한 구성
+        - [연속합과 쿼리[P1]](https://www.acmicpc.net/problem/16993)

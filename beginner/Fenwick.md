@@ -17,7 +17,7 @@
 어떤 변수 i가 3이라는 숫자를 가지고 있다고 가정한다.<br>
 비트로 나타내면 0b00000101이라는 값을 가지고 있다.<br>
 -i를 비트로 나타내면 0b11111011를 가진다.<br>
-i & -1를 하면 현재 i가 가리키는 숫자의 가장 오른쪽 비트를 가리키게 된다.<br>
+i & -i를 하면 현재 i가 가리키는 숫자의 가장 오른쪽 비트를 가리키게 된다.<br>
 이는 다른 모든 숫자에서도 동일하다.<br>
 이 원리를 이용하여 세그먼트 트리를 구성하는 것이다.
 
@@ -50,6 +50,16 @@ void sum(int i) {
     return ans;
 }
 
+```
+
+> 구조체로 구현
+```
+// 세그먼트 트리보다 확실히 구현량이 적은 것을 확인할 수 있다.
+struct Fenwick {
+    int n; vector<long long> seg; Fenwick(int n): n(n), seg(n+1) {}
+    void add(int i, int v) { while(i <= size) { fenwick[i] += v; i += i & -i; } }
+    void query(int i) { long long res = 0; while(i) { res += seg[i]; i -= i & -i; } return res; }
+}
 ```
 
 [더 자세한 설명](https://www.acmicpc.net/blog/view/21)
