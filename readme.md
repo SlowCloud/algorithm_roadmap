@@ -25,11 +25,11 @@
     - [다익스트라](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/dijkstra.md)
     - 플로이드-워셜
     - 벨만-포드
-  - 분리 집합
+  - [분리 집합](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/unionFind.md)
   - 최소 간선 트리
     - 크루스칼
     - 프림
-  - 투 포인터
+  - [투 포인터](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/twoPointer.md)
   - 비트마스킹
   - [**구현**](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/implementation.md)
 
@@ -60,7 +60,7 @@
   - [펜윅 트리, 인덱스 트리](https://github.com/SlowCloud/algorithm_roadmap/blob/main/beginner/Fenwick.md)
 
 - 알고리즘
-  - 위상 정렬
+  - [위상 정렬](https://github.com/SlowCloud/algorithm_roadmap/blob/main/beginner/topologicalSort.md)
   - 다이나믹 프로그래밍
     - 덱을 이용한 DP
     - 최장 공통 문자열(LCS)
@@ -165,10 +165,11 @@
 
 - 기타
   - 알고리즘 외적인 최적화
-    - FAST I/O
+    - FAST I/O(fread)
     - 컴파일 단계에서의 최적화
-      - 실행 속도 향상 컴파일 옵션
+      - 실행 속도 향상 컴파일 옵션(GCC Ofast, O3, ...)
       - 병렬 연산 옵션(SIMD)
+      - 컴파일 단계에서의 계산(constexpr)
     - 공간복잡도 최적화
       - Bitset을 이용한 최적화
   - bits/extc++.h
