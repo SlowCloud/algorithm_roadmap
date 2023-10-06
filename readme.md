@@ -3,7 +3,7 @@
 - 자료구조
   - 트리와 그래프
   - 해시맵, 집합
-  - [스택](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/Stack.md)
+  - [스택](basic/Stack.md)
   - 큐
   - 데큐
   - 우선순위 큐
@@ -11,27 +11,27 @@
 - 알고리즘
   - 정렬
   - 브루트 포스
-  - [이분 탐색](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/binarySearch.md)
+  - [이분 탐색](basic/binarySearch.md)
     - 매개 변수 탐색
   - 분할 정복
-  - [DFS/BFS](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/FirstSearch.md)
+  - [DFS/BFS](basic/FirstSearch.md)
   - 그리디 알고리즘
   - 재귀/백트래킹
-  - [**다이나믹 프로그래밍**](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/DP.md)
+  - [**다이나믹 프로그래밍**](basic/DP.md)
     - 비트마스킹을 이용한 DP
     - 트리에서의 DP
     - 가장 긴 증가하는 부분수열(LIS)
   - 최단 경로
-    - [다익스트라](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/dijkstra.md)
+    - [다익스트라](basic/dijkstra.md)
     - 플로이드-워셜
     - 벨만-포드
-  - [분리 집합](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/unionFind.md)
+  - [분리 집합](basic/unionFind.md)
   - 최소 간선 트리
     - 크루스칼
     - 프림
-  - [투 포인터](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/twoPointer.md)
+  - [투 포인터](basic/twoPointer.md)
   - 비트마스킹
-  - [**구현**](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/implementation.md)
+  - [**구현**](basic/implementation.md)
 
 - 수학
   - 정수론
@@ -42,7 +42,7 @@
       - 유클리드 호제법
   - 선형대수
     - 행렬 연산
-  - [분할정복을 이용한 빠른 거듭제곱](https://github.com/SlowCloud/algorithm_roadmap/blob/main/basic/FastPower.md)
+  - [분할정복을 이용한 빠른 거듭제곱](basic/FastPower.md)
   - 조합론
     - DFS를 이용한 조합 구하기
     - 비트마스킹을 이용한 조합 구하기
@@ -56,11 +56,11 @@
 코딩 테스트를 준비하시는 분은 여기까지 공부하시면 좋습니다.
 
 - 자료구조
-  - [**세그먼트 트리**](https://github.com/SlowCloud/algorithm_roadmap/blob/main/beginner/SegmentTree.md)
-  - [펜윅 트리, 인덱스 트리](https://github.com/SlowCloud/algorithm_roadmap/blob/main/beginner/Fenwick.md)
+  - [**세그먼트 트리**](beginner/SegmentTree.md)
+  - [펜윅 트리, 인덱스 트리](beginner/Fenwick.md)
 
 - 알고리즘
-  - [위상 정렬](https://github.com/SlowCloud/algorithm_roadmap/blob/main/beginner/topologicalSort.md)
+  - [위상 정렬](beginner/topologicalSort.md)
   - 다이나믹 프로그래밍
     - 덱을 이용한 DP
     - 최장 공통 문자열(LCS)
@@ -71,20 +71,20 @@
 ## 중급
 
 - 자료구조
-  - [느리게 갱신되는 세그먼트 트리](https://github.com/SlowCloud/algorithm_roadmap/blob/main/intermediate/LazyProp.md)
+  - [느리게 갱신되는 세그먼트 트리](intermediate/LazyProp.md)
   - 머지 소트 트리
 
 - 알고리즘
-  - [오일러 투어 트릭](https://github.com/SlowCloud/algorithm_roadmap/blob/main/intermediate/ETT.md)
-  - [단절점/단절선](https://github.com/SlowCloud/algorithm_roadmap/blob/main/intermediate/Articulation.md)
+  - [오일러 투어 트릭](intermediate/ETT.md)
+  - [단절점/단절선](intermediate/Articulation.md)
   - 강한 연결 요소
-  - [네트워크 플로우](https://github.com/SlowCloud/algorithm_roadmap/blob/main/intermediate/NetworkFlow.md)
+  - [네트워크 플로우](intermediate/NetworkFlow.md)
     - 이분 매칭
     - 2-SAT
     - 최대 유량/최소 컷
     - 최소 거리 최대 유량
-  - 최소 공통 조상(LCA)
-    - 희소 배열
+  - 희소 배열
+    - 최소 공통 조상(LCA)
   - 문자열 알고리즘
     - KMP
     - 트라이
@@ -127,7 +127,7 @@
   - ...
 
 - 알고리즘
-  - [헤비-라이트 분할](https://github.com/SlowCloud/algorithm_roadmap/blob/main/advanced/HLD.md)
+  - [헤비-라이트 분할](advanced/HLD.md)
   - 센트로이드 분할
   - 고급 문자열 알고리즘
     - 라빈-카프
