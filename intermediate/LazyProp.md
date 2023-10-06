@@ -91,10 +91,14 @@ void prop(int n, int s, int e) {
 
 ## 구현
 
-
 ## 연습 문제
-- [구간 합 구하기[P4]](https://www.acmicpc.net/problem/10999)
 
-## 어려운 문제
-- 복잡한 Lazy Propagation
-    - [수열과 쿼리 13[P1]](https://www.acmicpc.net/problem/13925)
+- 연습 문제
+    - [구간 합 구하기[P4]](https://www.acmicpc.net/problem/10999)
+
+- 응용 문제
+    - 미술 시간[?]
+
+- 어려운 문제
+    - 복잡한 Lazy Prop
+        - [수열과 쿼리 13[P1]](https://www.acmicpc.net/problem/13925)

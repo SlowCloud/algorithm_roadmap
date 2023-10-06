@@ -19,7 +19,7 @@
         - [소가 길을 건너간 이유 3[S4]](https://www.acmicpc.net/problem/14469)
         - [강의실 배정[G5]](https://www.acmicpc.net/problem/11000)
 
-- 중급 문제
+- 응용 문제
     - Exchange Arguments
         - [큰 수 만들기[P5]](https://www.acmicpc.net/problem/16496)
         - [소방서의 고민[P5]](https://www.acmicpc.net/problem/2180)
