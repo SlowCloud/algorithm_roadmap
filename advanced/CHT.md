@@ -11,7 +11,7 @@
 
 DP 식이 아래와 같이 바뀔 수 있을 때 적용할 수 있다.
 
-> $dp[j] = min_{i<j} ( dp[i] + A[j] \times B[j] + C[i] ) + D[j]$
+> $dp[j] = min_{i \lt j} ( dp[i] + A[j] \times B[j] + C[i] ) + D[j]$
 
 이 때, 아래 조건을 만족하여야 한다.
 
