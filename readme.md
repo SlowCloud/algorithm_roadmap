@@ -146,12 +146,11 @@
       - [분할 정복을 이용한 최적화(DnC Optimization)](advanced/DnCOpt.md)
       - 크누스 최적화(Knuth)
       - 단조 큐를 이용한 최적화
-      - 에일리언 트릭(Aliens Trick)
+      - [에일리언 트릭(Aliens Trick)](advanced/aliens.md)
       - 함수 개형을 이용한 최적화(Slope Trick)
     - 커넥션 프로파일 DP
     - 벌러켐프 매시
     - 히르쉬버그
-    - 키타마사법
   - 무작위화
   - ...
 
@@ -162,6 +161,8 @@
     - ...
   - 고속 푸리에 변환(FFT)
     - z변환
+    - 키타마사법
+    - ...
   - ...
 
 - 기타
