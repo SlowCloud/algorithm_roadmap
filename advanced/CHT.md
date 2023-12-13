@@ -11,15 +11,19 @@
 
 DP 식이 아래와 같이 바뀔 수 있을 때 적용할 수 있다.
 
-> $dp[j] = min_{i \lt j} ( dp[i] + A[j] \times B[j] + C[i] ) + D[j]$
-
-이 때, 아래 조건을 만족하여야 한다.
-
+> $dp[j] = min_{i \lt j} ( dp[i] + A[j] \times B[j] + C[i] ) + D[j]$  
 > $j \lt i, B[j] > B[i]$
+
+또는
+
+> $dp[j] = max_{i \lt j} ( dp[i] + A[j] \times B[j] + C[i] ) + D[j]$  
+> $j \lt i, B[j] < B[i]$
+
+이 때, B는 monge array이어야 한다.
 
 ### 최적화 원리
 
-설명 추가 예정
+증명은 [koosaga님의 블로그](https://koosaga.com/242)에서.
 
 ### 예시 문제 풀이
 
@@ -58,19 +62,24 @@ ch.insert({B[1], 0})
 
 두 번째 나무부터는 충전 시간을 계산해야 한다. 두 번째 나무를 자르는 비용은 B[i - 1] * A[i] + DP[i - 1], 즉 B[1] * A[2] + DP[1]이다.
 
-// 설명 이어서 하기
-
-#### 김치[P2]
+이제 위 식을 따라서 반복문을 통해 Line을 저장하고, DP 값을 찾아서 저장하는 식으로 계산하면 된다.
 
 ### 이모저모
 
 연산을 쉽게 하기 위해, LineContainer라는 객체를 만들어 Wx+b 식을 관리하는 방법이 있다.
 
+Li-Chao Tree라는 자료구조를 사용해서 간선을 관리할 수도 있다. 해당 자료구조를 공부하려면 동적 세그먼트 트리를 공부해야 한다.
+
 ## 연습 문제
 
 - 연습 문제
-    - 나무 자르기[P2]
-    - 김치[P2]
+    - [나무 자르기[P2]](https://www.acmicpc.net/problem/13263)
+        - CHT 연습 문제
+    - [특공대[D5]](https://www.acmicpc.net/problem/4008)
+        - CHT가 가능한 식으로 변환하는 연습 문제
 
-- 응용 문제
-    - 특공대[D5]
+- 활용 문제
+    - [땅따먹기[D5]](https://www.acmicpc.net/problem/6171)
+        - CHT와 전처리가 필요한 문제
+    - [수열 나누기[D4]](https://www.acmicpc.net/problem/10067)
+        - 간선의 개수를 제한한다면? 어떤 간선이 사용되었는지 확인하려면?
