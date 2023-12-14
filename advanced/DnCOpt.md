@@ -28,6 +28,7 @@ DnC Optimization을 하려면 몇 가지 선행조건이 존재한다.
 ## 연습 문제
 
 - [김치[P1]](https://www.acmicpc.net/problem/11001)
+  - 예시로 좋은 문제는 아닌 것 같다.
 - [탈옥[P1]](https://www.acmicpc.net/problem/13261)
 
 
