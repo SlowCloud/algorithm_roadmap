@@ -15,7 +15,7 @@
     - 매개 변수 탐색
   - 분할 정복
   - [DFS/BFS](basic/FirstSearch.md)
-  - 그리디 알고리즘
+  - [그리디 알고리즘](basic/greedy.md)
   - 재귀/백트래킹
   - [**다이나믹 프로그래밍**](basic/DP.md)
     - 비트마스킹을 이용한 DP
