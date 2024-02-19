@@ -49,3 +49,149 @@ lazy한 갱신은, 매 노드에 접근할 때마다 propagation하면 된다.
 
 - 연습 문제
     - [배열[P2]](https://www.acmicpc.net/problem/13159)
+
+# 코드
+
+> Short Version
+
+
+> Long Version
+
+```C++
+
+struct Node {
+    Node* l, Node* r;
+    int v;
+}
+
+Node* rotateRight(Node* node) {
+    /*
+        node
+        /
+      left
+        \
+        middle
+    
+    becomes
+
+         left
+            \
+            node
+            /
+        middle
+    */
+    Node* left = node.l, *middle = left.r;
+    left.r = node; node.l = middle;
+    return left;
+}
+
+Node* rotateLeft(Node* node) {
+        /*
+        node
+            \
+            right
+            /
+        middle
+    
+    becomes
+
+        right
+        /
+    node
+        \
+        middle
+    */
+    Node* right = node.r, *middle = right.l;
+    right.l = node; node.r = middle;
+    return right;
+}
+
+Node* splay(Node* root, int value) {
+    if(root == nullptr) return root;
+    if(root->v == value) return root;
+
+    /*
+            root
+            /
+        ...
+    */
+    if(value < root->v) {
+
+        /*
+                root
+                /
+            target
+        */
+        if(root->l == value) {
+            /*
+                    target
+                        \
+                        root
+            */
+            root = rotateRight(root);
+            return root;
+        }
+
+        /*
+                    root
+                    /
+                left
+                /
+            ...
+        */
+        if(value < root.l.v) {
+            /*
+                        root
+                        /
+                    left
+                    /
+                target
+            */
+            root->l->l = splay(root->l->l);
+            /*
+                        root
+                        /
+                    target
+                        \
+                        left
+            */
+            root = rotateRight(root);
+        }
+
+        /*
+                    root
+                    /
+                left
+                    \
+                    ...
+        */
+        else {
+            /*
+                        root
+                        /
+                    left
+                        \
+                        target
+            */
+            root->l->r = splay(root->l->r);
+            /*
+                        root
+                        /
+                    target
+                    /
+                left
+            */
+            root->l = rotateLeft(root->l);
+        }
+
+        /*
+                target
+                    \
+                    root
+        */
+        root = rotateRight(root);
+        return root;
+    }
+}
+
+```
