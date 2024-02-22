@@ -43,6 +43,7 @@ DP 식이 아래와 같이 바뀔 수 있을 때 적용할 수 있다.
 
 int f(int i) {
     int& now = dp[i];
+    if(now != -1) return now;
     for(int j = 0; j < i; j++) {
         now = min(now, B[j] * A[i] + f(j));
     }
