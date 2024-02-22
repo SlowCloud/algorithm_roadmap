@@ -20,23 +20,28 @@
 
 
 ### rotate 함수
-rotate 함수는 노드 x를 한 칸 위로 끌어올리는 함수이다.
 
-// 설명 추가
+노드 x를 각 방향으로 회전시키는 함수이다.
+
+아래의 노드를 한 칸 위로 끌어올릴 때 사용한다.
 
 ### splay 함수
+
 splay 함수는 rotate 함수를 활용하여 주어진 노드를 root 노드까지(혹은 특정 노드 위치까지) 끌어올리는 함수이다.
 
-// 설명 추가
+끌어올릴 때, zig-zag, zag-zig와 zig-zig, zag-zag의 노드를 올리는 방식이 다른데, 이는 매 쿼리 시 트리가 이진 트리의 모습을 갖추도록 하기 위함이다.
+
+자세한 내용은 [해당 문서](https://www2.hawaii.edu/~nodari/teaching/f19/scribes/notes06.pdf)를 참고하는 것을 추천한다.
 
 
 ### 구간 질의
 
 스플레이 트리에서의 구간 질의는 위 함수를 기반으로 작동한다.
 
-gather(int s, int e)는 s ~ e 사이의 노드의 정보를 가진 노드를 반환한다.  
-splay(e + 1)를 수행하고, splay(s - 1)를 수행하면 되는데, splay(s - 1)를 수행할 때, s의 부모 노드가 e + 1가 되면 멈추게 한다. 이는 splay(s - 1, e + 1)라는 새로운 함수를 작성하는 것으로 구현할 수 있다.  
-그러면 e + 1가 루트 노드이고, e + 1의 좌측 자식 노드에 s - 1가 존재하는 형태가 되는데, 이 때 s - 1의 우측 자식 노드에 s ~ e 사이의 노드를 가지고 있는 스플레이 트리가 생기게 된다. 이 스플레이 트리에서 값을 쿼리해서 반환하면 된다.
+gather(int s, int e)는 s ~ e 사이의 노드의 정보를 가진 노드를 반환한다.
+
+splay(e+1) 이후, 루트 노드의 왼쪽 노드에 대해 splay(s-1)을 수행하면, 루트 노드의 왼쪽 자식 노드의 우측 자식 노드에 원하는 구간에 대한 정보를 담는 노드가 생기게 된다.  
+이 노드를 반환하면 된다.
 
 lazy한 갱신은, 매 노드에 접근할 때마다 propagation하면 된다.
 
@@ -81,7 +86,7 @@ Node* rotateRight(Node* node) {
         middle
     */
     Node* left = node.l, *middle = left.r;
-    left.r = node; node.l = middle;
+    node.l = middle; left.r = node;
     return left;
 }
 
@@ -102,7 +107,7 @@ Node* rotateLeft(Node* node) {
         middle
     */
     Node* right = node.r, *middle = right.l;
-    right.l = node; node.r = middle;
+    node.r = middle; right.l = node;
     return right;
 }
 
@@ -116,7 +121,6 @@ Node* splay(Node* root, int value) {
         ...
     */
     if(value < root->v) {
-
         /*
                 root
                 /
@@ -149,11 +153,11 @@ Node* splay(Node* root, int value) {
             */
             root->l->l = splay(root->l->l);
             /*
-                        root
-                        /
-                    target
-                        \
                         left
+                        /   \
+                    target  root
+
+
             */
             root = rotateRight(root);
         }
@@ -192,6 +196,26 @@ Node* splay(Node* root, int value) {
         root = rotateRight(root);
         return root;
     }
+
+    // 오른쪽도 비슷하게 진행함.
+    else {
+        if(root->r->v == value) {
+            root =rotateLeft(root);
+            return root;
+        }
+
+        if(root->r->v < value) {
+            root->r->r = splay(root->r->r);
+            root = rotateLeft(root);
+        }
+        else {
+            root->r->l = splay(root->r->l);
+            root->r = rotateRight(root->r);
+        }
+        root = rotateLeft(root);
+        return root;
+    }
+
 }
 
 ```
