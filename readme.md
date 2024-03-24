@@ -1,6 +1,7 @@
 ## 기초
 
 - 자료구조
+
   - 트리와 그래프
   - 해시맵, 집합
   - [스택](basic/Stack.md)
@@ -9,6 +10,7 @@
   - 우선순위 큐
 
 - 알고리즘
+
   - 정렬
   - 브루트 포스
   - [이분 탐색](basic/binarySearch.md)
@@ -34,6 +36,7 @@
   - [**구현**](basic/implementation.md)
 
 - 수학
+
   - 정수론
     - 모듈로 연산
     - 소수 판별
@@ -53,42 +56,53 @@
 
 ## 초급
 
-
 - 자료구조
+
   - [**세그먼트 트리**](beginner/SegmentTree.md)
   - [펜윅 트리, 인덱스 트리](beginner/Fenwick.md)
 
 - 알고리즘
   - [위상 정렬](beginner/topologicalSort.md)
   - 다이나믹 프로그래밍
-    - 가장 긴 증가하는 부분수열(LIS) ($O(NlogN)$)
+    - 가장 긴 증가하는 부분수열(LIS) ( $O(NlogN)$ )
     - 최장 공통 문자열(LCS)
 
 코딩 테스트를 준비하시는 분은 여기까지 공부하시면 좋습니다.
 
+- 수학
+
+  - [페르마의 소정리](beginner/ferma.md)
+    - [모듈로 역원](beginner/modular_inverse.md)
+
 - 기하학
+
   - 외적(CCW)
   - 선분 교차
 
 - 기타
   - bits/stdc++.h
+  - 무작위화
 
 ## 중급
 
 - 자료구조
+
   - [느리게 갱신되는 세그먼트 트리](intermediate/LazyProp.md)
   - 머지 소트 트리
+  - \*트라이
 
 - 알고리즘
-  - [오일러 투어 트릭](intermediate/ETT.md)
-  - [단절점/단절선](intermediate/Articulation.md)
-  - [강한 연결 요소](intermediate/scc.md)
-    - 이중 연결 요소
-  - [네트워크 플로우](intermediate/NetworkFlow.md)
-    - 이분 매칭
-    - 2-SAT
-    - 최대 유량/최소 컷
-    - 최소 거리 최대 유량
+
+  - 그래프
+    - [오일러 투어 트릭](intermediate/ETT.md)
+    - [단절점/단절선](intermediate/Articulation.md)
+    - [강한 연결 요소](intermediate/scc.md)
+      - 이중 연결 요소
+    - [네트워크 플로우](intermediate/NetworkFlow.md)
+      - 이분 매칭
+      - 2-SAT
+      - 최대 유량/최소 컷
+      - 최소 거리 최대 유량
   - 희소 배열
     - 최소 공통 조상(LCA)
   - 문자열 알고리즘
@@ -101,15 +115,19 @@
   - 삼분 탐색
 
 - 기하학
+
   - 볼록 껍질(Convex Hull)
   - 회전하는 캘리퍼스
 
 - 수학
+
   - 정수론
-    - 페르마의 소정리를 이용한 소수 판별
     - 밀러-라빈 소수 판별법
+    - 폴라드 로
     - 확장 유클리드 호제법
-  - 포함-배제의 원리
+  - 조합론
+    - 뤼카 정리
+    - 포함-배제의 원리
   - 비둘기집 원리
   - ...
 
@@ -124,6 +142,7 @@
 자주 변경될 예정
 
 - 자료구조
+
   - 다차원 세그먼트 트리
   - 세그먼트 트리 비츠
   - [스플레이 트리](advanced/Splay.md), 트립
@@ -136,6 +155,7 @@
   - ...
 
 - 알고리즘
+
   - [헤비-라이트 분할](advanced/HLD.md)
   - [센트로이드 분할](advanced/CentroidDivison.md)
   - 고급 문자열 알고리즘
@@ -155,14 +175,14 @@
       - 단조 큐를 이용한 최적화
       - [에일리언 트릭(Aliens Trick)](advanced/aliens.md)
       - 함수 개형을 이용한 최적화(Slope Trick)
+      - 히르쉬버그
     - 커넥션 프로파일 DP
     - 키타마사법
       - 벌러켐프 매시
-    - 히르쉬버그
-  - 무작위화
   - ...
 
 - 수학
+
   - 정수론
     - 중국인의 나머지 정리(CRT)
     - 뤼카의 정리

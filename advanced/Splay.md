@@ -18,7 +18,6 @@
 
 스플레이 트리는 회전(rotate) 함수와 스플레이(splay) 함수를 기반으로 작동한다.
 
-
 ### rotate 함수
 
 노드 x를 각 방향으로 회전시키는 함수이다.
@@ -33,7 +32,6 @@ splay 함수는 rotate 함수를 활용하여 주어진 노드를 root 노드까
 
 자세한 내용은 [해당 문서](https://www2.hawaii.edu/~nodari/teaching/f19/scribes/notes06.pdf)를 참고하는 것을 추천한다.
 
-
 ### 구간 질의
 
 스플레이 트리에서의 구간 질의는 위 함수를 기반으로 작동한다.
@@ -45,20 +43,85 @@ splay(e+1) 이후, 루트 노드의 왼쪽 노드에 대해 splay(s-1)을 수행
 
 lazy한 갱신은, 매 노드에 접근할 때마다 propagation하면 된다.
 
-
 ## 이모저모
 
-트리 자료구조의 진짜 끝판왕은 모든 갱신/질의를 $O(logN)$ 안에 수행하는 레드 블랙 트리지만, 보통 STL map이나 set 등에 사용되고 있어 해당 자료구조로 해결할 수 있고,  구현 난이도가 높아서 복잡한 쿼리가 필요할 경우 비교적 간결한 스플레이 트리를 대신 사용한다.
+트리 자료구조의 진짜 끝판왕은 모든 갱신/질의를 $O(logN)$ 안에 수행하는 레드 블랙 트리지만, 보통 STL map이나 set 등에 사용되고 있어 해당 자료구조로 해결할 수 있고, 구현 난이도가 높아서 복잡한 쿼리가 필요할 경우 비교적 간결한 스플레이 트리를 대신 사용한다.
 
 ## 연습 문제
 
 - 연습 문제
-    - [배열[P2]](https://www.acmicpc.net/problem/13159)
+  - [배열[P2]](https://www.acmicpc.net/problem/13159)
 
 # 코드
 
+코드가 잘못되어 있어 수정중입니다.  
+방식 자체는 맞으니 확인 용도로만 참고해주세요.
+
 > Short Version
 
+```C++
+struct Node {
+    Node* l, * r;
+    int v;
+};
+
+Node* rotateRight(Node * node) {
+    Node* left = node->l, * middle = left->r;
+    node->l = middle; left->r = node;
+    return left;
+}
+
+Node* rotateLeft(Node * node) {
+
+    Node* right = node->r, * middle = right->l;
+    node->r = middle; right->l = node;
+    return right;
+}
+
+Node* splay(Node * root, int value) {
+    if (root == nullptr) return root;
+    if (root->v == value) return root;
+
+    if (value < root->v) {
+        if (root->l->v == value) {
+            root = rotateRight(root);
+            return root;
+        }
+
+        if (value < root->l->v) {
+            root->l->l = splay(root->l->l, value);
+            root = rotateRight(root);
+        }
+        else {
+            root->l->r = splay(root->l->r, value);
+            root->l = rotateLeft(root->l);
+        }
+
+        root = rotateRight(root);
+        return root;
+    }
+
+    else {
+        if (root->r->v == value) {
+            root = rotateLeft(root);
+            return root;
+        }
+
+        if (root->r->v < value) {
+            root->r->r = splay(root->r->r, value);
+            root = rotateLeft(root);
+        }
+        else {
+            root->r->l = splay(root->r->l, value);
+            root->r = rotateRight(root->r);
+        }
+
+        root = rotateLeft(root);
+        return root;
+    }
+
+}
+```
 
 > Long Version
 
@@ -76,7 +139,7 @@ Node* rotateRight(Node* node) {
       left
         \
         middle
-    
+
     becomes
 
          left
@@ -97,7 +160,7 @@ Node* rotateLeft(Node* node) {
             right
             /
         middle
-    
+
     becomes
 
         right
