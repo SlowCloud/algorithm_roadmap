@@ -101,12 +101,12 @@
     - [네트워크 플로우](intermediate/NetworkFlow.md)
       - 이분 매칭
       - 2-SAT
-      - 최대 유량/최소 컷
-      - 최소 거리 최대 유량
+      - 최대 유량/최소 컷(MFMC)
+      - 최소 거리 최대 유량(MCMF)
   - 희소 배열
     - 최소 공통 조상(LCA)
   - 문자열 알고리즘
-    - KMP
+    - [KMP](intermediate/kmp.md)
     - [트라이](intermediate/trie.md)
     - 라빈-카프
   - [오프라인 쿼리](intermediate/offline_query.md)
