@@ -17,6 +17,7 @@
     - 매개 변수 탐색
   - 분할 정복
   - [DFS/BFS](basic/FirstSearch.md)
+    - 0-1 너비 우선 탐색
   - [그리디 알고리즘](basic/greedy.md)
   - 재귀/백트래킹
   - [**다이나믹 프로그래밍**](basic/DP.md)
@@ -78,6 +79,7 @@
 
   - [외적(CCW)](beginner/ccw.md)
   - 선분 교차
+  - 다각형의 넓이 구하기
 
 - 기타
   - bits/stdc++.h
@@ -109,6 +111,7 @@
     - [KMP](intermediate/kmp.md)
     - [트라이](intermediate/trie.md)
     - 라빈-카프
+    - 매내쳐
   - [오프라인 쿼리](intermediate/offline_query.md)
     - [mo's](intermediate/mo's.md)
   - 제곱근 분할법
@@ -118,6 +121,7 @@
 
   - 볼록 껍질(Convex Hull)
   - 회전하는 캘리퍼스
+  - 볼록 다각형 내 점 판정
 
 - 수학
 
@@ -128,6 +132,7 @@
   - 조합론
     - 뤼카 정리
   - 비둘기집 원리
+  - 포함-배제의 원리
   - ...
 
 - 기타
@@ -157,11 +162,10 @@
 
   - [헤비-라이트 분할](advanced/HLD.md)
   - [센트로이드 분할](advanced/CentroidDivison.md)
-  - 고급 문자열 알고리즘
+  - 문자열 알고리즘
     - 아호-코라식
     - 접미사 배열과 LCP 배열
     - Z 알고리즘
-    - 매내쳐
     - 접미사 트리
   - 스프라그 그런디 정리
   - 병렬 이분 탐색
@@ -171,7 +175,7 @@
       - [볼록 껍질을 이용한 최적화(Convex Hull Trick)](advanced/CHT.md)
       - [분할 정복을 이용한 최적화(DnC Optimization)](advanced/DnCOpt.md)
       - 크누스 최적화(Knuth)
-      - 단조 큐를 이용한 최적화
+      - 단조 큐를 이용한 최적화(monotone queue opt)
       - [에일리언 트릭(Aliens Trick)](advanced/aliens.md)
       - 함수 개형을 이용한 최적화(Slope Trick)
       - 히르쉬버그
@@ -184,11 +188,12 @@
 
   - 정수론
     - 중국인의 나머지 정리(CRT)
-    - 포함-배제의 원리
     - ...
   - 고속 푸리에 변환(FFT)
     - z변환
     - ...
+  - BigInteger
+    - 카라추바의 빠른 곱셈
   - ...
 
 - 기타
