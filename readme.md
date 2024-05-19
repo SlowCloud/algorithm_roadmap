@@ -99,7 +99,7 @@
     - [강한 연결 요소](intermediate/scc.md)
       - 이중 연결 요소
     - [네트워크 플로우](intermediate/NetworkFlow.md)
-      - 이분 매칭
+      - [이분 매칭](intermediate/BipartiteMatching.md)
       - 2-SAT
       - 최대 유량/최소 컷(MFMC)
       - 최소 거리 최대 유량(MCMF)
