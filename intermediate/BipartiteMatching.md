@@ -49,4 +49,3 @@
   - [돌멩이 제거](https://www.acmicpc.net/problem/1867)
 - 최대 독립 집합
   - [컨닝 2](https://www.acmicpc.net/problem/11014)
-  - [비숍 2](https://www.acmicpc.net/problem/2570)
