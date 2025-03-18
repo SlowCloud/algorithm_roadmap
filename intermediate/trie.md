@@ -19,3 +19,34 @@
 
 트리의 원리를 사용한다. 각 노드는 각 문자열들마다의 분기를 가지고 있고, 해당 분기를 계속 타고 내려가면서 노드를 생성하는 형태이다.  
 문자열의 끝에 다다르면, 해당 노드에 exist를 체크하고 빠져나오는 식이다.
+
+최근 코딩 테스트 등에서 자주 나오고 있다.
+
+```C++
+// find를 통해서, put으로 입력한 동일한 문자열이 존재하는지 확인하는 로직을 작성했다. 필요에 따라 조금씩 수정해서 사용하면 된다.
+// find에 입력한 문자열을 prefix로 가지는 문자열의 개수를 구한다던지 등등.
+struct Trie {
+  map<char, Trie*> next;
+  bool exist = false;
+  void put(string s) {
+    Trie* now = this;
+    for(char c : s) {
+      if(now->next.find(c) == now->next.end()) {
+        now->next[c] = new Trie();
+      }
+      now = now->next[c];
+    }
+    now->exist = true;
+  }
+  bool find(string s) {
+    Trie* now = this;
+    for(char c : s) {
+      if(now->next.find(c) == now->next.end()) {
+        return false;
+      }
+      now = now->next[c];
+    }
+    return now->exist;
+  }
+}
+```
